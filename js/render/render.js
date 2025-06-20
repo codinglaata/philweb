@@ -1,4 +1,3 @@
-// render.js (modular version)
 export async function renderBlog(filePath) {
   const main = document.getElementById('content');
 
@@ -9,6 +8,7 @@ export async function renderBlog(filePath) {
     const articleHTML = buildBlogHTML(blogData);
     main.innerHTML = articleHTML;
 
+    // Back button to reload homepage
     document.getElementById('go-back').onclick = () => window.location.reload();
   } catch (err) {
     main.innerHTML = `<p>Error loading blog: ${err.message}</p>`;
@@ -30,7 +30,7 @@ function buildBlogHTML(data) {
   return html;
 }
 
-// Build subsections block
+// Build HTML for each subsection
 function buildSubsectionsHTML(subsections) {
   let html = '';
   subsections.forEach(sub => {
@@ -62,7 +62,7 @@ function buildSubsectionsHTML(subsections) {
   return html;
 }
 
-// Render individual links
+// Reusable link renderer
 function renderLink(linkObj) {
   return `<p><a href="${linkObj.url}" target="_blank">${linkObj.label}</a> (${linkObj.note})</p>`;
 }
