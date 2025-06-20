@@ -3,12 +3,77 @@
   "date": "2025-06-20",
   "sections": [
     {
-      "heading": "Introduction",
-      "content": "Stoicism is a school of Hellenistic philosophy founded in Athens..."
+      "heading": "1. Shaktism and Animal Offerings",
+      "subsections": [
+        {
+          "subheading": "1. Kalika Purana allows sacrifices only in rare Tantric rituals."
+        },
+        {
+          "subheading": "2. Mahanirvana Tantra and Devi Bhagavata Purana advocate symbolic offerings (like coconuts or pumpkins), especially in Kali Yuga."
+        },
+        {
+          "note": "📌 Key Point: While animal sacrifice was present in some tantric rituals, unfortunately it is misunderstood or taken out of context, leading to normalized animal sacrifice in certain regions. Many modern Shakta temples have now abandoned such practices in favor of symbolic or vegetarian offerings."
+        }
+      ]
     },
     {
-      "heading": "Main Beliefs",
-      "content": "Virtue is the only good, and external things don’t affect true happiness..."
+      "heading": "2. Ahimsa and the Hindu Ideal of Non-Violence",
+      "subsections": [
+        {
+          "subheading": "🔹 Bhagavad Gita (17.8–10): Classifies food as Sattvic (pure), Rajasic, and Tamasic (impure). Meat is considered Tamasic and is discouraged for anyone seeking spiritual progress."
+        },
+        {
+          "subheading": "🔹 Manusmriti (5.49–52): Clearly states,",
+          "quote": "“One should not kill even for the sake of ritual. Non-violence is the highest dharma.”"
+        },
+        {
+          "subheading": "🔹 Mahabharata (Anushasana Parva, 115.47): Warns against meat-eating due to its karmic consequences and the cruelty it cultivates."
+        },
+        {
+          "note": "📌 Key Point: The heart of Hinduism beats with the spirit of compassion and non-violence."
+        }
+      ]
+    },
+    {
+      "heading": "3. The “Fish is Vegetarian” Argument",
+      "subsections": [
+        {
+          "subheading": "Yajurveda (12.32) says, “Do not harm any living creature.”"
+        },
+        {
+          "note": "📌 Key Point: Such allowances are cultural adaptations, not scriptural mandates."
+        }
+      ]
+    },
+    {
+      "heading": "4. Views of Swami Ramkrishna Paramhans and Swami Vivekananda",
+      "subsections": [
+        {
+          "subheading": "🕉️ Sri Ramakrishna Paramhansa said:",
+          "quote": "“The scriptures say that sacrifices can be made on special occasions… But I am now in such a state of mind that I cannot watch a sacrifice. Also, I cannot eat meat offered to the Divine Mother.”",
+          "link": {
+            "label": "Click here",
+            "url": "https://estudantedavedanta.net/THE%20GOSPEL%20OF%20SRI%20RAMAKRISHNA.pdf",
+            "note": "Page 153"
+          },
+          "note": "He personally distances himself from karm kand and emphasizes inner devotion and universal love above rituals."
+        },
+        {
+          "subheading": "🕉️ Swami Vivekananda echoed this evolution:",
+          "quote1": "The Vedanta entirely denies such ideas as that animals are separate from men, and that they were made and created by God to be used for our food.",
+          "link1": {
+            "label": "Click here",
+            "url": "https://en.m.wikisource.org/wiki/The_Complete_Works_of_Swami_Vivekananda/Volume_2/Practical_Vedanta_and_other_lectures/Practical_Vedanta:_Part_I",
+            "note": "Para 9"
+          },
+          "quote2": "Eating meat is only allowable for people who do very hard work… but if you are going to be Bhaktas, you should avoid meat.",
+          "link2": {
+            "label": "Click here",
+            "url": "https://en.m.wikisource.org/wiki/The_Complete_Works_of_Swami_Vivekananda/Volume_4/Addresses_on_Bhakti-Yoga/The_Preparation?utm_source=chatgpt.com",
+            "note": "Para 3"
+          }
+        }
+      ]
     }
   ]
 }
