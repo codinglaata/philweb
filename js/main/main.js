@@ -1,17 +1,20 @@
-import { renderBlog } from '../render/render.js';
+import { renderBlog } from './render.js';
 
 const blogListElement = document.getElementById('blog-list');
 
+// Define your blog metadata here
 const blogs = [
   {
-    id: 'stoicism',
-    title: 'Understanding Stoicism',
-    summary: 'An introduction to Stoic philosophy and its core principles.',
-    file: 'content/stoicism.json'
-  },
-  // Add more blog metadata here
+    id: 'bali-pratha',
+    title: 'Bali Pratha in Hinduism',
+    summary: 'Explore the roots, interpretations, and evolving views around animal offerings in Hinduism.',
+    file: 'content/bali-pratha-in-hinduism.json'
+  }
+
+  // You can add more blogs in this array later
 ];
 
+// Create a blog card element
 function createBlogCard(blog) {
   const card = document.createElement('div');
   card.className = 'blog-card';
@@ -23,16 +26,31 @@ function createBlogCard(blog) {
   return card;
 }
 
+// Load blog list onto homepage
 function loadBlogList() {
-  blogListElement.innerHTML = '';
+  const content = document.getElementById('content');
+  content.innerHTML = `
+    <section class="intro">
+      <h2>Welcome to the Philosophy Blog</h2>
+      <p>Explore ideas, thinkers, and schools of thought that shape our world.</p>
+    </section>
+    <section id="blog-list" class="blog-grid"></section>
+  `;
+
+  const blogListElement = document.getElementById('blog-list');
   blogs.forEach(blog => {
     const card = createBlogCard(blog);
     blogListElement.appendChild(card);
   });
+
+  setupEventDelegation();
 }
 
+// Event delegation for blog buttons
 function setupEventDelegation() {
-  blogListElement.addEventListener('click', (e) => {
+  const blogList = document.getElementById('blog-list');
+
+  blogList.addEventListener('click', (e) => {
     if (e.target.tagName === 'BUTTON') {
       const file = e.target.getAttribute('data-file');
       renderBlog(file);
@@ -40,5 +58,5 @@ function setupEventDelegation() {
   });
 }
 
+// Initialize site
 loadBlogList();
-setupEventDelegation();

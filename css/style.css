@@ -67,6 +67,19 @@ nav a:hover {
   font-size: 1.2rem;
 }
 
+.blog-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .blog-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
 footer {
   text-align: center;
   margin-top: 40px;
