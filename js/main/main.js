@@ -1,4 +1,4 @@
-import { renderBlog } from './render.js';
+import { renderBlog } from '../render/render.js';
 
 const blogListElement = document.getElementById('blog-list');
 
